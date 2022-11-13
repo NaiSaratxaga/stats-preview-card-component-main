@@ -1,0 +1,45 @@
+:root {
+  --blue-main-background: hsl(233, 47%, 7%);
+  --blue-card-background: hsl(244, 38%, 16%);
+  --soft-violet-accent: hsl(277, 64%, 61%);
+  --white-main-heading: hsl(0, 0%, 100%);
+  --white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --white-stat-headings: hsla(0, 0%, 100%, 0.6);
+  --font-base: 'Inter', sans-serif;
+  --font-secundary: 'Lexend Deca', sans-serif;
+  --font-sm: 400;
+  --font-bold: 700;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blue-card-background);
+  font-size: 1.5rem;
+}
+
+.main {
+  background-color: var(--blue-main-background);
+}
+/* .hero {
+  fill-opacity: var(--soft-violet-accent);
+} */
+
+h1 {
+  font-family: var(--font-base);
+  font-size: var(--font-bold);
+  color: var(--white-main-heading);
+}
+p {
+  font-family: var(--font-base);
+  font-size: var(--font-sm);
+  color: var(--white-main-paragraph);
+}
+.info-container {
+  font-family: var(--font-secundary);
+  font-size: var(--font-bold);
+  color: var(--white-stat-headings);
+}
